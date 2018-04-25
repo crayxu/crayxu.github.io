@@ -1,0 +1,166 @@
+<!DOCTYPE HTML>
+<html>
+    <!-- Head Start -->
+    <head>
+        <title>Personal Website</title>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
+        <!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
+        <!-- top icon -->
+        <link rel="icon" href="images/icons/icon.png" type="image/x-icon" />
+        <!-- stylesheet -->
+        <link rel="stylesheet" href="assets/css/main.css" />
+        <!-- google font -->
+        <link href="https://fonts.googleapis.com/css?family=Carter+One|Lato|Ubuntu" rel="stylesheet">
+        <!-- animate -->
+        <link rel="stylesheet" href="assets/css/animate.css" />
+        <!-- smooth scroll plugin -->
+        <script src="assets/js/jquery.min.js"></script>
+        <script>
+            $(document).ready(function(){
+                // Add smooth scrolling to all links
+                $("a").on('click', function(event) {
+
+                    // Make sure this.hash has a value before overriding default behavior
+                    if (this.hash !== "") {
+                        // Prevent default anchor click behavior
+                        event.preventDefault();
+
+                        // Store hash
+                        var hash = this.hash;
+
+                        // Using jQuery's animate() method to add smooth page scroll
+                        // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+                        $('html, body').animate({
+                            scrollTop: $(hash).offset().top
+                        }, 800, function(){
+
+                            // Add hash (#) to URL when done scrolling (default click behavior)
+                            window.location.hash = hash;
+                        });
+                    } // End if
+                });
+            });
+        </script>
+        <!-- QR Code plugin -->
+        <script type="text/javascript">
+            function showImg(){
+                document.getElementById("wxImg").style.display='block';
+            }
+            function hideImg(){
+                document.getElementById("wxImg").style.display='none';
+            }
+            function showImge(){
+                document.getElementById("qqImg").style.display='block';
+            }
+            function hideImge(){
+                document.getElementById("qqImg").style.display='none';
+            }
+        </script>
+        <style>
+            b {
+                font-family: 'Carter One', cursive;
+            }
+        </style>
+
+    </head>
+    <!-- Head End -->
+    <body>
+    <div id="page-wrapper">
+        <!-- Header Start -->
+        <header id="header" class="alt" style="background: black">
+        <h1 style="font-family: 'Carter One', cursive;"><a href="index.html">Cray Xu</a></h1>
+        <nav id="nav">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li>
+                    <a href="#" class="icon fa-angle-down">Projects</a>
+                    <ul>
+                        <li><a href="website.html">Personal Website</a></li>
+                        <li><a href="leetcode.html">LeetCode Practice</a></li>
+                        <!--
+                        <li><a href="elements.html">Elements</a></li>
+                        -->
+                        <!--
+                        <li>
+                            <a href="#">Submenu</a>
+                            <ul>
+                                <li><a href="#">Option One</a></li>
+                                <li><a href="#">Option Two</a></li>
+                                <li><a href="#">Option Three</a></li>
+                                <li><a href="#">Option Four</a></li>
+                            </ul>
+                        </li>
+                        -->
+                    </ul>
+                </li>
+                <li><a href="#footer" class="button">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+        <!-- Header End -->
+
+        <!-- Main -->
+        <section id="main" class="container">
+        <header>
+            <h2 style="font-family: 'Carter One', cursive;">LeetCode Practice</h2>
+            <p>Practice LeetCode Algorithm Problems with C/C++ Language</p>
+        </header>
+        <div class="box">
+            <span class="image featured"><img src="images/projects/leetcode.png" alt="" /></span>
+            <h2 style="text-align: center;font-family: 'Carter One', cursive;">Description</h2>
+            <h4>
+                This is the record of my LeetCode Algorithm Problems Practice.
+                Now, I have learnt basic syntax, data structure and algorithm of C/C++ Language.
+                Therefore, I am trying my best to solve as many LeetCode problems as possible.
+                I will implement different data structures such as linked list, stack,
+                queue, tree, hash table instead of using library functions to improve my
+                algorithm skill.
+                <br>
+                <br>
+                <i class="icon fa-link"></i> Solutions on my Github: <a href="https://github.com/crayxu/leetcode"><b>https://github.com/crayxu/leetcode</b></a>
+            </h4>
+            <hr>
+            <h2 style="text-align: center;font-family: 'Carter One', cursive;">References</h2>
+            <p style="text-align: center">Currently, None :)</p>
+        </div>
+    </section>
+
+        <!-- Footer Start-->
+        <div id="wxImg" style="display:none;back-ground:#000000;position:absolute;margin-left: 380px;"><img src="images/wechat.jpeg" width="35%" height="40%"></div>
+        <div id="qqImg" style="display:none;back-ground:#000000;position:absolute;margin-left: 810px;"><img src="images/qq.jpeg" width="38%" height="40%"></div>
+        <footer id="footer">
+            <ul class="icons">
+                <li><a href="mailto:zhenchaoxu1997@gmail.com" class="icon fa-envelope"><span class="label">E-mail</span></a></li>
+                <li><a href="https://github.com/crayxu" target="_blank" class="icon fa-github"><span class="label">Github</span></a></li>
+                <li><a href="https://www.linkedin.com/in/zhenchaoxu" target="_blank" class="icon fa-linkedin"><span class="label">LinkedIn</span></a></li>
+                <li><a href="https://www.facebook.com/crayxu" target="_blank" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
+                <li><a href="https://www.instagram.com/cray_x_x" target="_blank" class="icon fa-instagram"><span class="label">Instagram</span></a></li>
+                <li><a href="https://soundcloud.com/zhenchao-xu" target="_blank" class="icon fa-soundcloud"><span class="label">Soundcloud</span></a></li>
+            </ul>
+            <ul class="icons">
+                <li><a href="javascript:void(0)" onMouseOut="hideImg()" onmouseover="showImg()" class="icon fa-wechat"></a></li>
+                <li><a href="https://space.bilibili.com/12697069" target="_blank"><span class="label"><img src="images/icons/bilibili.png" width="60px" height="60px" style="margin-left: -2px"></span></a></li>
+                <li style="margin-right: 20px"><a href="javascript:void(0)" onMouseOut="hideImge()" onmouseover="showImge()" class="icon fa-qq"></a></li>
+
+            </ul>
+
+            <ul class="copyright">
+                <li style="font-family: 'Carter One', cursive;">&copy; Cray Xu. All rights reserved.</li>
+            </ul>
+        </footer>
+        <!-- Footer End-->
+    </div>
+
+    <!-- Scripts -->
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/jquery.dropotron.min.js"></script>
+    <script src="assets/js/jquery.scrollgress.min.js"></script>
+    <script src="assets/js/skel.min.js"></script>
+    <script src="assets/js/util.js"></script>
+    <!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
+    <script src="assets/js/main.js"></script>
+
+    </body>
+</html>

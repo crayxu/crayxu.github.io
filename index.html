@@ -1,0 +1,922 @@
+<!DOCTYPE HTML>
+<html>
+
+	<!-- Head Start -->
+	<head>
+		<title>Cray Xu</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
+		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
+		<!-- top icon -->
+		<link rel="icon" href="images/icons/icon.png" type="image/x-icon" />
+		<!-- stylesheet -->
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<!-- google font -->
+		<link href="https://fonts.googleapis.com/css?family=Carter+One|Lato" rel="stylesheet">
+		<!-- animate -->
+		<link rel="stylesheet" href="assets/css/animate.css" />
+		<!-- smooth scroll plugin -->
+		<script src="assets/js/jquery.min.js"></script>
+		<script>
+				$(document).ready(function(){
+					// Add smooth scrolling to all links
+					$("a").on('click', function(event) {
+
+						// Make sure this.hash has a value before overriding default behavior
+						if (this.hash !== "") {
+							// Prevent default anchor click behavior
+							event.preventDefault();
+
+							// Store hash
+							var hash = this.hash;
+
+							// Using jQuery's animate() method to add smooth page scroll
+							// The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+							$('html, body').animate({
+								scrollTop: $(hash).offset().top
+							}, 800, function(){
+
+								// Add hash (#) to URL when done scrolling (default click behavior)
+								window.location.hash = hash;
+							});
+						} // End if
+					});
+				});
+			</script>
+		<!-- QR Code plugin -->
+		<script type="text/javascript">
+				function showImg(){
+					document.getElementById("wxImg").style.display='block';
+				}
+				function hideImg(){
+					document.getElementById("wxImg").style.display='none';
+				}
+				function showImge(){
+					document.getElementById("qqImg").style.display='block';
+				}
+				function hideImge(){
+					document.getElementById("qqImg").style.display='none';
+				}
+			</script>
+		<!--
+		<script>
+            window.onload = function(){
+                setTimeout(function(){
+                    var loader = document.getElementsByClassName("loader")[0];
+                    loader.className="loader fadeout" ;//使用渐隐的方法淡出loading page
+                    setTimeout(function(){loader.style.display="none"},1000)
+                },1000)//强制显示loading page 1s
+            }
+		</script>
+		-->
+		<style>
+			b {
+				font-family: 'Carter One', cursive;
+			}
+		</style>
+	</head>
+	<!-- Head End -->
+
+	<body class="landing">
+	<!--
+	<style>
+		/* loader */
+		.loader {
+			position: fixed;
+			z-index: 9999;
+			width: 100%;
+			height: 100%;
+			background: white;
+			text-align: center;
+			-webkit-transition: opacity 1s ease;
+			-moz-transition: opacity 1s ease;
+			-o-transition: opacity 1s ease;
+			transition: opacity 1s ease;
+		}
+		.loader-content {
+			display: block;
+			position: relative;
+			top: 10%
+		}
+		.fadeout {
+			opacity: 0;
+			filter: alpha(opacity=0);
+		}
+		/* animation */
+		@-webkit-keyframes fadeInDown{0%{opacity:0;-webkit-transform:translate3d(0,-100%,0);transform:translate3d(0,-100%,0)}100%{opacity:1;-webkit-transform:none;transform:none}}
+		@keyframes fadeInDown{0%{opacity:0;-webkit-transform:translate3d(0,-100%,0);}}
+	</style>
+	<div class="loader">
+		<div class="loader-content">
+			<h2>Please Wait!
+				<br>
+				(੭ु｡╹▿╹｡)੭ु⁾⁾
+			</h2>
+			<img src="images/load.gif" alt="Loader" class="loader-loader" width="40%" height="40%" />
+		</div>
+	</div>
+	-->
+	<div id="page-wrapper">
+
+		<!-- Header Start -->
+		<header id="header" class="alt">
+					<h1 style="font-family: 'Carter One', cursive;"><a href="index.html">Cray Xu</a></h1>
+					<nav id="nav">
+						<ul>
+							<li><a href="#main">About Me</a></li>
+							<li><a href="#edu">Education</a></li>
+							<li><a href="#skill">Skills</a></li>
+							<li><a href="#experience">Work Experience</a></li>
+							<li>
+								<a href="#project" class="icon fa-angle-down">Projects</a>
+								<ul>
+									<li><a href="website.html" target="_blank">Personal Website</a></li>
+									<li><a href="leetcode.html" target="_blank">LeetCode Practice</a></li>
+									<!--
+									<li><a href="elements.html">Elements</a></li>
+									-->
+									<!--
+									<li>
+										<a href="#">Submenu</a>
+										<ul>
+											<li><a href="#">Option One</a></li>
+											<li><a href="#">Option Two</a></li>
+											<li><a href="#">Option Three</a></li>
+											<li><a href="#">Option Four</a></li>
+										</ul>
+									</li>
+									-->
+								</ul>
+							</li>
+
+							<li><a href="#involvement">Involvement</a></li>
+							<li><a href="#interest">Interests</a></li>
+							<li><a href="#photo">Photos</a></li>
+							<li><a href="#footer">Contact</a></li>
+							<li><a href="http://crayxu.com/blog" target="_blank" class="button alt">Blog</a></li>
+						</ul>
+					</nav>
+				</header>
+		<!-- Header End -->
+
+		<!-- Banner Start -->
+		<section id="banner" style="align-content: center">
+					<h2 style="margin-left: -3%; font-family: 'Carter One', cursive;">Cray Xu</h2>
+					<h3>Computer Engineering &nbsp; | &nbsp; University of Waterloo</h3>
+					<br>
+					<ul class="actions" style="margin-top: 100px">
+						<li><a href="Resume_Cray.pdf" target="_blank" class="button special">Resume</a></li>
+					</ul>
+
+					<ul class="actions">
+						<li><a href="https://github.com/crayxu" target="_blank" class="button">Github</a></li>
+					</ul>
+						<a href="#main" class="icon fa-angle-double-down animated finite flash" style="font-size: 60px; color: ghostwhite"></a>
+
+				</section>
+		<!-- Banner End -->
+
+		<!-- Main Start -->
+		<section id="main" class="container">
+			<!-- About Me Start -->
+			<section class="box special">
+						<header class="major">
+							<h2 style="font-family: 'Carter One', cursive;">Welcome to My Personal Website!</h2>
+							<p><b>Work Hard in Silence. Let Your Success Be Your Noise.</b></p>
+							<p style="font-size: Larger">
+								Hello, I am Cray, a 1B <b>Computer Engineering</b> student at the <b>University of Waterloo</b>.
+								<br>
+								<br>
+								I have powerful passion for <b>Software Development</b> and <b>Web Development.</b>
+								<br>
+								<br>
+								I have various interests include <b>Piano, Magic Cube, Pen Spinning, Table Tennis, Badminton, etc.</b>
+							</p>
+						</header>
+						<span class="image featured"><img src="images/coding.png" alt=""/></span>
+				</section>
+			<!-- About Me End -->
+			<br>
+			<!-- Education Start -->
+			<section id="edu" class="box special_edu features">
+					<!--<img src="images/figure0.png" width="20%" height="50%" style="position: absolute; margin-top: -200px;margin-left: -180px">-->
+					<h2 style="text-align: center;font-family: 'Carter One', cursive;"><i class="icon fa-graduation-cap"></i> Education</h2>
+						<div class="features-row">
+							<section>
+								<span><img src="images/edu/engineering.png" width="120px" height="120px" style="display: block;margin-left: auto;margin-right: auto;"></span>
+								<h3><b>University of Waterloo</b></h3>
+								<h1><b>Bachelor of Applied Science,
+									<br>Computer Engineering</b></h1>
+								<ul>
+									<li>Mathematics: Calculus, Linear Algebra, Discrete Mathematics and Logic</li>
+									<li>Physics: Classical Mechanics, Electricity and Magnetism</li>
+									<li>Chemistry: Chemical principles with applications</li>
+									<li>Fundamentals of Programming (C++)</li>
+									<i class="icon fa-link" style="margin-left: 10px"></i><a href="https://github.com/crayxu/ece150" target="_blank" style="color: gray"> <b>ECE150 Labs Solutions</b></a>
+									<li>Digital Circuits and Systems</li>
+									<li>Linear Circuits</li>
+									<li>...</li>
+								</ul>
+								<h1><b>Self-Taught</b></h1>
+								<ul>
+									<li>CS136: Elementary Algorithm Design and Data Abstraction</li>
+									<i class="icon fa-link" style="margin-left: 10px"></i><a href="https://github.com/crayxu/cs136" target="_blank" style="color: gray"> <b>CS136 Assignments Solutions</b></a>
+								</ul>
+								<h1><b>More on My Course Description Website :</b></h1>
+								<ul>
+									<i class="icon fa-link" style="margin-left: 10px"></i><a href="http://crayxu.com/coursework" target="_blank" style="color: gray"> <b>Cray's coursework</b></a>
+								</ul>
+								</section>
+							<section>
+								<span><img src="images/edu/uwaterloo.png" width="450px" height="300px" style="margin-left: -5%;margin-right: 10%;"></span>
+								<hr>
+								<img src="images/edu/goose.jpg" width="450" height="300" style="margin-left: -5%;margin-right: 10%;">
+							</section>
+						</div>
+					</section>
+			<!-- Education End -->
+			<br>
+			<!-- Skills Start -->
+			<section id="skill" class="box special features">
+					<!--<img src="images/figure2.png" width="30%" height="40%" style="position: absolute; margin-top: -160px;margin-left: 240px">-->
+					<h2 style="text-align: center;font-family: 'Carter One', cursive;"><i class="icon fa-edit"></i> Skills</h2>
+					<hr>
+					<span class="icon major fa-rocket accent1" style="color: gold"></span>
+					<h2 style="font-family: 'Carter One', cursive;"><b>Programming Skills</b></h2>
+					<div class="row">
+						<div class="6u 12u(mobilep)">
+							<h3 style="font-family: 'Carter One', cursive;"><i class="icon fa-code"></i> Languages</h3>
+							<ul style="list-style-type: none">
+                                <b>
+                                    <li>HTML/CSS&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                        &nbsp;<i class="icon fa-star" style="color: gold"></i>
+                                        &nbsp;<i class="icon fa-star" style="color: gold"></i>
+                                        &nbsp;<i class="icon fa-star" style="color: gold"></i>
+                                        &nbsp;<i class="icon fa-star" style="color: gold"></i>
+                                        &nbsp;<i class="icon fa-star"></i>
+                                    </li>
+                                    <li>C/C++&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                        &nbsp;<i class="icon fa-star" style="color: gold"></i>
+                                        &nbsp;<i class="icon fa-star" style="color: gold"></i>
+                                        &nbsp;<i class="icon fa-star" style="color: gold"></i>
+                                        &nbsp;<i class="icon fa-star"></i>
+                                        &nbsp;<i class="icon fa-star"></i>
+                                    </li>
+                                    <li>JavaScript&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                        &nbsp;<i class="icon fa-star" style="color: gold"></i>
+                                        &nbsp;<i class="icon fa-star" style="color: gold"></i>
+                                        &nbsp;<i class="icon fa-star" style="color: gold"></i>
+                                        &nbsp;<i class="icon fa-star"></i>
+                                        &nbsp;<i class="icon fa-star"></i>
+                                    </li>
+                                    <li>Node.js&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                        &nbsp;<i class="icon fa-star" style="color: gold"></i>
+                                        &nbsp;<i class="icon fa-star" style="color: gold"></i>
+                                        &nbsp;<i class="icon fa-star"></i>
+                                        &nbsp;<i class="icon fa-star"></i>
+                                        &nbsp;<i class="icon fa-star"></i>
+                                    </li>
+                                    <li>Java&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                        &nbsp;<i class="icon fa-star" style="color: gold"></i>
+                                        &nbsp;<i class="icon fa-star" style="color: gold"></i>
+                                        &nbsp;<i class="icon fa-star"></i>
+                                        &nbsp;<i class="icon fa-star"></i>
+                                        &nbsp;<i class="icon fa-star"></i>
+                                    </li>
+                                    <li>Python&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                        &nbsp;<i class="icon fa-star" style="color: gold"></i>
+                                        &nbsp;<i class="icon fa-star" style="color: gold"></i>
+                                        &nbsp;<i class="icon fa-star"></i>
+                                        &nbsp;<i class="icon fa-star"></i>
+                                        &nbsp;<i class="icon fa-star"></i>
+                                    </li>
+                                    <li>Markdown&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                        &nbsp;<i class="icon fa-star" style="color: gold"></i>
+                                        &nbsp;<i class="icon fa-star" style="color: gold"></i>
+                                        &nbsp;<i class="icon fa-star"></i>
+                                        &nbsp;<i class="icon fa-star"></i>
+                                        &nbsp;<i class="icon fa-star"></i>
+                                    </li>
+                                    <li>LaTex&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp
+                                        &nbsp;<i class="icon fa-star" style="color: gold"></i>
+                                        &nbsp;<i class="icon fa-star" style="color: gold"></i>
+                                        &nbsp;<i class="icon fa-star"></i>
+                                        &nbsp;<i class="icon fa-star"></i>
+                                        &nbsp;<i class="icon fa-star"></i>
+                                    </li>
+                                </b>
+							</ul>
+
+
+						</div>
+
+						<div class="6u 12u(mobilep)">
+							<h3 style="font-family: 'Carter One', cursive;"><i class="icon fa-wrench"></i> Tools</h3>
+							<ul style="list-style-type: none">
+                                <b>
+                                    <li>Github &#8729; Git &#8729; cPanel</li>
+                                    <li>Atom  &#8729; Eclipse &#8729; Xcode &#8729; WebStorm &#8729; Brackets</li>
+                                    <li>MS Office &#8729; iWork</li>
+                                    <li>PhotoShop</li>
+                                </b>
+							</ul>
+                            <h3 style="font-family: 'Carter One', cursive;"><i class="icon fa-clone"></i> Frameworks</h3>
+                            <ul style="list-style-type: none">
+                                <b>
+                                    <li>jQuery &#8729; Bootstrap</li>
+                                    <li>Phaser</li>
+                                    <li>Firebase SDK</li>
+                                </b>
+                            </ul>
+						</div>
+					</div>
+				<div class="features-row">
+					<section>
+						<span class="icon major fa-user-plus accent2"></span>
+						<h3 style="font-family: 'Carter One', cursive;">Self-Starter & Self-Learner</h3>
+						<h4>I can learn new things independently with strong attention. Currently, I have learnt lots of things by myself mostly due to interests like Piano, Rubik's Cube, Pen Spinning, etc.</h4>
+					</section>
+					<section>
+						<span class="icon major fa-bolt accent5"></span>
+						<h3 style="font-family: 'Carter One', cursive;">Quick-Learner</h3>
+						<h4>I can learn things really quickly, even I have not known them before at all. I am able to look for and search various approaches to achieve my goal as soon as possible.</h4>
+					</section>
+				</div>
+				<div class="features-row">
+					<section>
+						<span class="icon major fa-lightbulb-o accent5"></span>
+						<h3 style="font-family: 'Carter One', cursive;">Problem-Solving Skill</h3>
+						<h4>I possess strong critical thinking ability and can always come up with tons of creative and original ideas. I am able to search and analyze to solve problems quickly by various methods </h4>
+					</section>
+					<section>
+						<span class="icon major fa-users accent3"></span>
+						<h3 style="font-family: 'Carter One', cursive;">Team Work</h3>
+						<h4>I am a highly motivated worker in a team and willing to accept more challenging work and tasks. I am highly reliable and adapts quickly and easily in a new environment</h4>
+					</section>
+				</div>
+				<div class="features-row">
+					<section>
+						<span class="icon major fa-clipboard accent3"></span>
+						<h3 style="font-family: 'Carter One', cursive;">Organized</h3>
+						<h4>I can handle lots of tough and difficult things methodically. Also, I am good at managing time and work efficiently during a limited time</h4>
+					</section>
+					<section>
+						<span class="icon major fa-undo fa-flip-horizontal accent2"></span>
+						<h3 style="font-family: 'Carter One', cursive;">Continuous Learning</h3>
+						<h4>I am curious and desire to learn as much new knowledge, skills, and technology to enrich myself, thus being able to make more contributions to the society.</h4>
+					</section>
+				</div>
+			</section>
+			<!-- Skills End -->
+			<br>
+			<!-- Word Experience Start-->
+			<section id="experience" class="box special_edu features">
+					<!--<img src="images/figure5.png" width="20%" height="40%" style="position: absolute; margin-top: -160px;margin-left: -200px">-->
+					<h2 style="text-align: center;font-family: 'Carter One', cursive;"><i class="icon fa-briefcase"></i> Work Experience</h2>
+						<!-- right -->
+						<div class="features-row">
+							<section>
+								<img src="images/work/sheleads.png" width="50%" height="50%" style="margin-left: 20%">
+								<h4 style="margin-top: 3%"><b>SheLeads</b>, a <b>Startup</b> founded in <b>2017</b>, aims to encourage and assess leadership skills in young girls.
+									<b>SheLeads</b> designed various online games to help female-focused organizations assess program efficacy through participant development.
+									<b>SheLeads</b> focuses on organizations that aid girls under 6-16.</h4>
+							</section>
+							<section>
+								<div>
+									<div style="float:left; font-size: x-large;font-family: 'Carter One', cursive;"><b>SheLeads</b> </div>
+									<div style="float:left; font-size: large">&nbsp;&nbsp;<strong>| Game Developer</strong></div>
+								</div>
+								<br>
+								<div>
+									<div style="float:left; font-size: large">Mar 2018 – Apr 2018 |</div>
+									<div style="float:left; font-size: large">&nbsp;&nbsp;Waterloo, ON</div>
+								</div>
+								<br>
+								<br>
+								<ul>
+									<li>Designed an <b>HTML5</b> game for girls aged 6-18 to encourage their leadership</li>
+									<li>Implemented different features for this game using <b>JavaScript</b> based on <b>Phaser</b> framework</li>
+									<li>Connected <b>Firebase</b> database with the game using <b>Firebase API</b></li></ul>
+							</section>
+						</div>
+						<!-- left -->
+						<div class="features-row">
+							<section>
+								<div>
+									<div style="float:left; font-size: x-large;font-family: 'Carter One', cursive;"><b>Wantboard</b> </div>
+									<div style="float:left; font-size: large">&nbsp;&nbsp;<strong>| Web Developer</strong></div>
+								</div>
+								<br>
+								<div>
+									<div style="float:left; font-size: large">Feb 2017 – Mar 2017 |</div>
+									<div style="float:left; font-size: large">&nbsp;&nbsp;Kitchener, ON</div>
+								</div>
+								<br>
+								<br>
+								<ul>
+									<li>Implemented <b>Node.js</b> to extract information on Amazon automatically by operating the <b>Linux</b> server on <b>DigitalOcean</b></li>
+									<li>Input information of products into the Spreadsheet by using <b>Google Scripts</b></li>
+									<li>Created and Managed product pages on <b>Shopify</b></li>
+								</ul>
+							</section>
+							<section>
+								<img src="images/work/wantboard.png" width="50%" height="50%" style="margin-left: 20%">
+								<h4 style="margin-top: 8%"><b>Wantboard</b>, a <b>Startup</b> founded in <b>2015</b>, set the mission of creating a more inclusive and accessible world by helping people buy items that are not easily available from where they live.
+									<b>Wantboard</b> is creating an eCommerce marketplace that lets people request and buy items not available in their country.
+									Currently, <b>Wantboard</b> is focusing on helping Canadians buy consumer electronics that are not available in Canada.</h4>
+							</section>
+						</div>
+						<!-- right -->
+						<div class="features-row">
+							<section>
+								<img src="images/work/equi_app.png" width="50%" height="50%" style="margin-left: 20%">
+								<h4 style="margin-top: 5%"><b>Equi-App</b>, a <b>Startup</b> founded in <b>2017</b>, is developing and bringing to market a mobile app based teaching and learning tool/platform to enhance and optimize equestrian horse and rider training.
+									<b>Equi-App</b> is currently starting Phase 2 at the Accelerator Centre, Waterloo, having completed idea validation phase, and received JumpStart seed funding.</h4>
+							</section>
+							<section>
+								<div>
+									<div style="float:left; font-size: x-large;font-family: 'Carter One', cursive;"><b>Equi-App</b> </div>
+									<div style="float:left; font-size: large">&nbsp;&nbsp;<strong>| Market Researcher</strong></div>
+								</div>
+								<br>
+								<div>
+									<div style="float:left; font-size: large">Jan 2018 – Feb 2018 |</div>
+									<div style="float:left; font-size: large">&nbsp;&nbsp;Jiangsu, China</div>
+								</div>
+								<br>
+								<br>
+								<ul>
+									<li><b>Competitive Research:</b> Produced a research document showing information, comparisons and ranking of given apps</li>
+									<li><b>Product Design:</b> Provided suggestions and feedbacks about App and Website
+										of Equi-App; Sketched logos for Equi-App</li>
+									<li><b>App Test:</b> Tested different Voice-To-Text Apps on Windows, macOS, Android, iOS operating system</li>
+								</ul>
+							</section>
+						</div>
+						<!-- left -->
+						<div class="features-row">
+							<section>
+								<div>
+									<div style="float:left; font-size: x-large;font-family: 'Carter One', cursive;"><b>Bank of China</b> </div>
+									<div style="float:left; font-size: large">&nbsp;&nbsp;<strong>| Manager Assistant</strong></div>
+								</div>
+								<br>
+								<div>
+									<div style="float:left; font-size: large">May 2017 – Jul 2017 |</div>
+									<div style="float:left; font-size: large">&nbsp;&nbsp;Jiangsu, China</div>
+								</div>
+								<br>
+								<br>
+								<ul>
+									<li>Collect and input information of clients into the computer for the manager using <b>Word</b> and <b>Excel</b></li>
+									<li>Presented work reports and innovative ideas during weekly meetings using <b>PowerPoint</b></li>
+									<li>Assisted clients in filling various forms like tax forms, bank card application forms, etc.</li>
+								</ul>
+							</section>
+							<section>
+								<img src="images/work/bank_of_china.png" width="50%" height="50%" style="margin-left: 20%; margin-top: -10%">
+								<h4 style="margin-top: -5%"><b>Bank of China</b> is one of the four biggest state-owned commercial banks in China.
+									<b>Bank of China's</b> core business is commercial banking, including corporate banking, personal banking and financial markets services.</h4>
+							</section>
+						</div>
+					</section>
+			<!-- Word Experience End-->
+			<br>
+			<!-- Projects Start-->
+			<section id="project" class="box special_edu features" style="background: ghostwhite">
+					<!--<img src="images/figure8.png" width="15%" height="45%" style="position: absolute; margin-top: -160px;margin-left: 890px">-->
+					<h2 style="text-align: center;font-family: 'Carter One', cursive;"><i class="icon fa-cogs"></i> Projects</h2>
+						<hr>
+					<div class="row">
+						<div class="6u 12u(narrower)">
+							<section class="box special">
+								<span class="image featured"><img src="images/projects/web.jpeg" alt=""/></span>
+								<h3 style="font-family: 'Carter One', cursive;">Personal Website</h3>
+								<h4>Built personal website with HTML, CSS and JavaScript to introduce myself</h4>
+								<ul class="actions">
+									<li><a href="website.html" target="_blank" class="button alt">Learn More</a></li>
+								</ul>
+							</section>
+
+						</div>
+						<div class="6u 12u(narrower)">
+							<section class="box special">
+								<span class="image featured"><img src="images/projects/leetcode.png" alt=""/></span>
+								<h3 style="font-family: 'Carter One', cursive;">LeetCode Practice</h3>
+								<h4>Practice LeetCode Algorithm Problems with C/C++ Language.</h4>
+								<ul class="actions">
+									<li><a href="leetcode.html" target="_blank" class="button alt">Learn More</a></li>
+								</ul>
+							</section>
+						</div>
+
+					</div>
+					</section>
+			<!-- Projects End-->
+			<br>
+			<!-- Involvement Start -->
+			<section id="involvement" class="box">
+					<!--<img src="images/figure9.png" width="15%" height="45%" style="position: absolute; margin-top: -160px;margin-left: -200px">-->
+
+					<h2 style="text-align: center;font-family: 'Carter One', cursive;"><i class="icon fa-share-alt"></i> Involvement</h2>
+						<hr>
+						<h3 style="font-family: 'Carter One', cursive;">Base Rep Team Volunteer</h3>
+						<h4>Sep 2016 – Nov 2016 | Waterloo, ON</h4>
+						<p>
+							<span class="image left"><img src="images/involvement/base.jpg" alt="" /></span>
+							The BASE Reps are a volunteer committee of English Language Learner students from the Bridge to Academic Success in English (BASE) program.
+							BASE Rep volunteers work to build their English language skills while developing their leadership, communication, and interpersonal skills by planning events and activities on campus.
+						</p>
+						<ul>
+							<li>Designed and organized activities for the University of Waterloo and Renison College</li>
+							<li>Shared academic and interpersonal skills with peers</li>
+							<li>Provided ideas and opinions about time management skills</li>
+							<li>Participated in different leadership programs</li>
+						</ul>
+					</section>
+			<!-- Involvement End -->
+			<br>
+			<!-- Interest Start -->
+			<section id="interest" class="box">
+					<!--<img src="images/figure4.png" width="20%" height="40%" style="position: absolute; margin-top: -100px;margin-left: 900px">
+					<img src="images/figure3.png" width="20%" height="40%" style="position: absolute; margin-top: -100px;margin-left: -240px">-->
+					<h2 style="text-align: center;font-family: 'Carter One', cursive;"><i class="icon fa-heart"></i> Interests</h2>
+					<hr>
+
+					<!-- Piano -->
+					<img src="images/interests/piano.png" width="5%" height="5%" style="margin-left: 47.5%">
+					<h2 style="text-align: center;font-family: 'Carter One', cursive;">Piano</h2>
+					<hr style="width: 50%; margin-left: 25%">
+					<h4>I learnt piano by myself since 2016.
+						The motivation comes Animenz, the great musical artist from German.
+						He plays tons of songs which covers for Anime OST/Openings and Endings. Since I did not receive the professional training, lots of techniques like gesture are poor based on the professional evaluation.
+					</h4>
+					<section class="box special features">
+						<h3 style="text-align: center"><i class="icon fa-star" style="color: gold"></i> Here is one of songs I played</h3>
+						<div class="features-row">
+						<section>
+							<iframe width="100%" height="200px" src="https://www.youtube.com/embed/MQswu9jv1xI" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe></section>
+						<section>
+							<h4>Composed by: Shao Siming</h4>
+							<h4>Thumbnail by: Me</h4>
+							<h4>Piano Arranged by: Me</h4>
+							<h4>Piano by: Me</h4>
+						</section>
+						</div>
+						<h3 style="text-align: center"><i class="icon fa-star" style="color: gold"></i> Here is one of songs I composed and played</h3>
+						<div class="features-row">
+							<section>
+								<iframe width="100%" height="200px" src="https://www.youtube.com/embed/Wr2guJ7F2bU" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe></section>
+							<section>
+								<h4>Composed by: Me</h4>
+								<h4>Thumbnail by: Me</h4>
+								<h4>Piano Arranged by: Me</h4>
+								<h4>Piano by: Me</h4>
+							</section>
+						</div>
+						<h3 style="text-align: center">More videos? Available on:</h3>
+						<h3 style="text-align: center"><b>Personal Bilibili Websit</b></h3>
+						<h4 style="text-align: center"><a href="https://space.bilibili.com/12697069" target="_blank" style="color: gray"><img src="images/interests/bilibili_larger.png" width="20%" height="5%"></a></h4>
+						<h3 style="text-align: center"><b>Personal Youtube Channel</b></h3>
+						<h4 style="text-align: center"><a href="https://www.youtube.com/channel/UCcVuHJSHZpJVjIIqW1iGUQg" target="_blank" style="color: gray"><img src="images/interests/youtube.png" width="20%" height="5%"></a></h4>
+					</section>
+
+
+					<!-- Arrangement -->
+					<img src="images/interests/fl_studio.png" width="5%" height="5%" style="margin-left: 47.5%">
+					<h2 style="text-align: center;font-family: 'Carter One', cursive;">Arrangement</h2>
+					<hr style="width: 50%; margin-left: 25%">
+					<h4>I learnt arranged music by myself.
+						I am just a beginner and enthusiast, and really enjoy the whole process of remixing my favourite songs.
+						I use different instruments to arrange the original song to make it have a new style.
+					</h4>
+					<hr style="width: 50%; margin-left: 25%">
+					<h3 style="text-align: center">Here are my Arrangement Compositions on Soundcloud</h3>
+					<iframe width="100%" height="450" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/users/285421590&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe>
+					<hr>
+
+					<!-- Sports -->
+					<section class="box special features">
+						<img src="images/interests/sports.png" width="5%" height="5%">
+						<h2 style="text-align: center;font-family: 'Carter One', cursive;"></i>Sports</h2>
+						<div class="features-row">
+							<section>
+								<img src="images/interests/table_tennis.png" width="10%" height="10%">
+								<h2 style="font-family: 'Carter One', cursive;">Table Tennis</h2>
+								<h4>I learnt Table Tennis at my grade 7 for 1 year
+								</h4>
+								<hr>
+								<h4 style="text-align: left">
+									My skill level is Intermediate
+									<br>
+									Here are some details
+								</h4>
+								<ul style="text-align: left">
+									<li>Griping method: Pen-hold Grip</li>
+									<li>Forehand Stroke/Attack/Spin/Block</li>
+									<li>Backspin/Sidespin</li>
+									<li>Speedo</li>
+									<li>Cut</li>
+									<li>Footwork</li>
+								</ul>
+							</section>
+							<section>
+								<img src="images/interests/badminton.png" width="10%" height="10%">
+								<h2 style="font-family: 'Carter One', cursive;">Badminton</h2>
+								<h4>I learnt Badminton by myself at my grade 11
+								</h4>
+								<hr>
+								<h4 style="text-align: left">
+									My skill level is Beginner
+									<br>
+									Here are some details
+								</h4>
+								<ul style="text-align: left">
+									<li>Feed the Shuttle to the Partner</li>
+									<li>Forehand Deep Clear/Smash</li>
+									<li>Deep/Short Service</li>
+									<li>Drive</li>
+									<li>Footwork</li>
+								</ul>
+							</section>
+						</div>
+						</section>
+					<!-- Cube -->
+					<img src="images/interests/cube.png" width="5%" height="5%" style="margin-left: 47.5%">
+					<h2 style="text-align: center;font-family: 'Carter One', cursive;">Rubik’s Cube</h2>
+					<hr style="width: 50%; margin-left: 25%">
+					<h4>The motivation for me to learn the magic cube is Feliks Zemdegs, an Australian Rubik's Cube speedsolver.
+						The quintessence of magic cube is not how to solve it but how fast you can solve it.
+						It is really easy to solve a cube becasue there are so many formulas you can refer to.
+						However, if you compete for speed, you should have excellent Observation, Memory and Finger Speed.
+					</h4>
+					<hr style="width: 50%; margin-left: 25%">
+					<h3 style="text-align: center">Here are my Personal Records</h3>
+					<div class="table-wrapper">
+						<table class="alt">
+							<thead>
+							<tr>
+								<th style="font-size: large;text-align: center"><b>Category</b></th>
+								<th style="font-size: large; text-align: center"><b>Personal Average Record</b></th>
+								<th style="font-size: large; text-align: center"><b>Personal Best Record</b></th>
+							</tr>
+							</thead>
+							<tbody>
+							<tr style="text-align: center">
+								<td>3x3x3 Cube(Improving)</td>
+								<td>45.88s</td>
+								<td>28.63s</td>
+							</tr>
+							<tr style="text-align: center">
+								<td>3x3x3 Blindfolded(Learning)</td>
+								<td>N/A</td>
+								<td>N/A</td>
+							</tr>
+						</table>
+					</div>
+					<hr style="width: 50%; margin-left: 25%">
+
+					<!-- <img src="images/interests/skateboard_pic.jpeg" width="50%" height="50%" style="margin-left: 25%"> -->
+					<hr>
+
+					<!-- Pen Spinning -->
+					<img src="images/interests/pen_spin.png" width="10%" height="10%" style="margin-left: 45%">
+					<h2 style="text-align: center;font-family: 'Carter One', cursive;">Pen Spinning</h2>
+					<hr style="width: 50%; margin-left: 25%">
+					<h4 style="text-align: center">I have infinite faith in the idea that increasing the agility of fingers can train the brain.
+					Also, making the pen spinning on my fingers is amazing and attractive. Therefore, I fall in love with this leisure activity</h4>
+					<hr style="width: 50%; margin-left: 25%">
+					<!-- <img src="images/interests/skateboard_pic.jpeg" width="50%" height="50%" style="margin-left: 25%"> -->
+					<hr>
+
+					<!-- Skateboard -->
+					<img src="images/interests/skateboard.png" width="5%" height="5%" style="margin-left: 47.5%">
+					<h2 style="text-align: center;font-family: 'Carter One', cursive;">Skateboard</h2>
+					<hr style="width: 50%; margin-left: 25%">
+					<h4 style="text-align: center">I learnt skateboard mostly because it is an excellent tool for transportation. Also, playing skateboard is so cool!</h4>
+					<hr style="width: 50%; margin-left: 25%">
+					<h4 style="text-align: center">This is my first <b>Cruiser</b> skateboard</h4>
+					<img src="images/interests/skateboard_pic.jpeg" width="50%" height="50%" style="margin-left: 25%">
+				</section>
+			<!-- Interest End -->
+			<br>
+			<!-- Photo Start -->
+			<section id="photo" class="box special features" style="background: white">
+					<!--<img src="images/background_photo.jpg" width="100%" height="100%" style="position: absolute; margin-top: -40px;margin-left: -30%; opacity: 0.2">-->
+					<h3 style="text-align: center;font-family: 'Carter One', cursive;"><i class="icon fa-photo"></i> Personal Photo Gallery</h3>
+					<ul class="actions">
+					<li><a href="http://cray-photo.com" target="_blank" class="button alt">Cray's Photo Gallarye</a></li>
+					</ul>
+					<hr>
+					<h4 style="text-align: center">Here are lots of categories with photos about my trips and my life
+						<br>(Click the larger photo to see more)
+					</h4>
+					<!-- Jssor Slider Begin -->
+					<!-- Generator: Jssor Slider Maker -->
+					<!-- Source: https://www.jssor.com -->
+					<script src="assets/js/jssor.slider-27.1.0.min.js" type="text/javascript"></script>
+					<script type="text/javascript">
+                        jssor_1_slider_init = function() {
+
+                            var jssor_1_SlideshowTransitions = [
+                                {$Duration:800,x:0.3,$During:{$Left:[0.3,0.7]},$Easing:{$Left:$Jease$.$InCubic,$Opacity:$Jease$.$Linear},$Opacity:2},
+                                {$Duration:800,x:-0.3,$SlideOut:true,$Easing:{$Left:$Jease$.$InCubic,$Opacity:$Jease$.$Linear},$Opacity:2},
+                                {$Duration:800,x:-0.3,$During:{$Left:[0.3,0.7]},$Easing:{$Left:$Jease$.$InCubic,$Opacity:$Jease$.$Linear},$Opacity:2},
+                                {$Duration:800,x:0.3,$SlideOut:true,$Easing:{$Left:$Jease$.$InCubic,$Opacity:$Jease$.$Linear},$Opacity:2},
+                                {$Duration:800,y:0.3,$During:{$Top:[0.3,0.7]},$Easing:{$Top:$Jease$.$InCubic,$Opacity:$Jease$.$Linear},$Opacity:2},
+                                {$Duration:800,y:-0.3,$SlideOut:true,$Easing:{$Top:$Jease$.$InCubic,$Opacity:$Jease$.$Linear},$Opacity:2},
+                                {$Duration:800,y:-0.3,$During:{$Top:[0.3,0.7]},$Easing:{$Top:$Jease$.$InCubic,$Opacity:$Jease$.$Linear},$Opacity:2},
+                                {$Duration:800,y:0.3,$SlideOut:true,$Easing:{$Top:$Jease$.$InCubic,$Opacity:$Jease$.$Linear},$Opacity:2},
+                                {$Duration:800,x:0.3,$Cols:2,$During:{$Left:[0.3,0.7]},$ChessMode:{$Column:3},$Easing:{$Left:$Jease$.$InCubic,$Opacity:$Jease$.$Linear},$Opacity:2},
+                                {$Duration:800,x:0.3,$Cols:2,$SlideOut:true,$ChessMode:{$Column:3},$Easing:{$Left:$Jease$.$InCubic,$Opacity:$Jease$.$Linear},$Opacity:2},
+                                {$Duration:800,y:0.3,$Rows:2,$During:{$Top:[0.3,0.7]},$ChessMode:{$Row:12},$Easing:{$Top:$Jease$.$InCubic,$Opacity:$Jease$.$Linear},$Opacity:2},
+                                {$Duration:800,y:0.3,$Rows:2,$SlideOut:true,$ChessMode:{$Row:12},$Easing:{$Top:$Jease$.$InCubic,$Opacity:$Jease$.$Linear},$Opacity:2},
+                                {$Duration:800,y:0.3,$Cols:2,$During:{$Top:[0.3,0.7]},$ChessMode:{$Column:12},$Easing:{$Top:$Jease$.$InCubic,$Opacity:$Jease$.$Linear},$Opacity:2},
+                                {$Duration:800,y:-0.3,$Cols:2,$SlideOut:true,$ChessMode:{$Column:12},$Easing:{$Top:$Jease$.$InCubic,$Opacity:$Jease$.$Linear},$Opacity:2},
+                                {$Duration:800,x:0.3,$Rows:2,$During:{$Left:[0.3,0.7]},$ChessMode:{$Row:3},$Easing:{$Left:$Jease$.$InCubic,$Opacity:$Jease$.$Linear},$Opacity:2},
+                                {$Duration:800,x:-0.3,$Rows:2,$SlideOut:true,$ChessMode:{$Row:3},$Easing:{$Left:$Jease$.$InCubic,$Opacity:$Jease$.$Linear},$Opacity:2},
+                                {$Duration:800,x:0.3,y:0.3,$Cols:2,$Rows:2,$During:{$Left:[0.3,0.7],$Top:[0.3,0.7]},$ChessMode:{$Column:3,$Row:12},$Easing:{$Left:$Jease$.$InCubic,$Top:$Jease$.$InCubic,$Opacity:$Jease$.$Linear},$Opacity:2},
+                                {$Duration:800,x:0.3,y:0.3,$Cols:2,$Rows:2,$During:{$Left:[0.3,0.7],$Top:[0.3,0.7]},$SlideOut:true,$ChessMode:{$Column:3,$Row:12},$Easing:{$Left:$Jease$.$InCubic,$Top:$Jease$.$InCubic,$Opacity:$Jease$.$Linear},$Opacity:2},
+                                {$Duration:800,$Delay:20,$Clip:3,$Assembly:260,$Easing:{$Clip:$Jease$.$InCubic,$Opacity:$Jease$.$Linear},$Opacity:2},
+                                {$Duration:800,$Delay:20,$Clip:3,$SlideOut:true,$Assembly:260,$Easing:{$Clip:$Jease$.$OutCubic,$Opacity:$Jease$.$Linear},$Opacity:2},
+                                {$Duration:800,$Delay:20,$Clip:12,$Assembly:260,$Easing:{$Clip:$Jease$.$InCubic,$Opacity:$Jease$.$Linear},$Opacity:2},
+                                {$Duration:800,$Delay:20,$Clip:12,$SlideOut:true,$Assembly:260,$Easing:{$Clip:$Jease$.$OutCubic,$Opacity:$Jease$.$Linear},$Opacity:2}
+                            ];
+
+                            var jssor_1_options = {
+                                $AutoPlay: 1,
+                                $SlideshowOptions: {
+                                    $Class: $JssorSlideshowRunner$,
+                                    $Transitions: jssor_1_SlideshowTransitions,
+                                    $TransitionsOrder: 1
+                                },
+                                $ArrowNavigatorOptions: {
+                                    $Class: $JssorArrowNavigator$
+                                },
+                                $ThumbnailNavigatorOptions: {
+                                    $Class: $JssorThumbnailNavigator$
+                                }
+                            };
+
+                            var jssor_1_slider = new $JssorSlider$("jssor_1", jssor_1_options);
+
+                            /*#region responsive code begin*/
+
+                            var MAX_WIDTH = 980;
+
+                            function ScaleSlider() {
+                                var containerElement = jssor_1_slider.$Elmt.parentNode;
+                                var containerWidth = containerElement.clientWidth;
+
+                                if (containerWidth) {
+
+                                    var expectedWidth = Math.min(MAX_WIDTH || containerWidth, containerWidth);
+
+                                    jssor_1_slider.$ScaleWidth(expectedWidth);
+                                }
+                                else {
+                                    window.setTimeout(ScaleSlider, 30);
+                                }
+                            }
+
+                            ScaleSlider();
+
+                            $Jssor$.$AddEvent(window, "load", ScaleSlider);
+                            $Jssor$.$AddEvent(window, "resize", ScaleSlider);
+                            $Jssor$.$AddEvent(window, "orientationchange", ScaleSlider);
+                            /*#endregion responsive code end*/
+                        };
+					</script>
+					<style>
+						/*jssor slider loading skin spin css*/
+						.jssorl-009-spin img {
+							animation-name: jssorl-009-spin;
+							animation-duration: 1.6s;
+							animation-iteration-count: infinite;
+							animation-timing-function: linear;
+						}
+
+						@keyframes jssorl-009-spin {
+							from { transform: rotate(0deg); }
+							to { transform: rotate(360deg); }
+						}
+
+						/*jssor slider arrow skin 051 css*/
+						.jssora051 {display:block;position:absolute;cursor:pointer;}
+						.jssora051 .a {fill:none;stroke:#fff;stroke-width:360;stroke-miterlimit:10;}
+						.jssora051:hover {opacity:.8;}
+						.jssora051.jssora051dn {opacity:.5;}
+						.jssora051.jssora051ds {opacity:.3;pointer-events:none;}
+
+						/*jssor slider thumbnail skin 111 css*/
+						.jssort111 .p {position:absolute;top:0;left:0;width:200px;height:100px;background-color:#000;}
+						.jssort111 .p img {position:absolute;top:0;left:0;width:100%;height:100%;}
+						.jssort111 .t {position:absolute;top:0;left:0;width:100%;height:100%;border:none;opacity:.45;}
+						.jssort111 .p:hover .t{opacity:.8;}
+						.jssort111 .pav .t, .jssort111 .pdn .t, .jssort111 .p:hover.pdn .t{opacity:1;}
+						.jssort111 .ti {position:absolute;bottom:0px;left:0px;width:100%;height:28px;line-height:28px;text-align:center;font-size:12px;color:#fff;background-color:rgba(0,0,0,.3)}
+						.jssort111 .pav .ti, .jssort111 .pdn .ti, .jssort111 .p:hover.pdn .ti{color:#000;background-color:rgba(255,255,255,.6);}
+					</style>
+
+					<div id="jssor_1" style="position:relative;margin:0 auto;top:0px;left:5%;width:980px;height:480px;overflow:hidden;visibility:hidden;margin-left: -7.5%">
+						<!-- Loading Screen -->
+						<div data-u="loading" class="jssorl-009-spin" style="position:absolute;top:0px;left:0px;width:100%;height:100%;text-align:center;background-color:rgba(0,0,0,0.7);">
+							<img style="margin-top:-19px;position:relative;top:50%;width:38px;height:38px;" src="images/spin.svg" />
+						</div>
+						<div data-u="slides" style="cursor:default;position:relative;top:0px;left:0px;width:980px;height:380px;overflow:hidden;">
+							<div data-p="170.00">
+								<a href="shanghai.html" target="_blank"><img data-u="image" src="images/travel/shanghai.jpeg" /></a>
+								<div data-u="thumb">
+									<img data-u="thumb" src="images/travel/shanghai_small.png" />
+									<div class="ti">Shanghai</div>
+								</div>
+							</div>
+							<div data-p="170.00">
+								<a href="https://www.cray-photo.com/nanjing" target="_blank"><img data-u="image" src="images/travel/nanjing.jpeg" /></a>
+								<div data-u="thumb">
+									<img data-u="thumb" src="images/travel/nanjing_small.jpeg" />
+									<div class="ti">Nanjing</div>
+								</div>
+							</div>
+							<div data-p="170.00">
+								<a href="https://www.cray-photo.com/nanjing2" target="_blank"><img data-u="image" src="images/travel/nanjing2.png" /></a>
+								<div data-u="thumb">
+									<img data-u="thumb" src="images/travel/nanjing2_small.png" />
+									<div class="ti">Nanjing_2</div>
+								</div>
+							</div>
+							<div data-p="170.00">
+								<a href="vancouver.html" target="_blank"><img data-u="image" src="images/travel/vancouver.jpeg" /></a>
+								<div data-u="thumb">
+									<img data-u="thumb" src="images/travel/vancouver_small.jpeg" />
+									<div class="ti">Vancouver</div>
+								</div>
+							</div>
+						</div>
+						<!-- Thumbnail Navigator -->
+						<div data-u="thumbnavigator" class="jssort111" style="position:absolute;left:0px;bottom:0px;width:980px;height:100px;cursor:default;" data-autocenter="1" data-scale-bottom="0.75">
+							<div data-u="slides">
+								<div data-u="prototype" class="p">
+									<div data-u="thumbnailtemplate" class="t"></div>
+								</div>
+							</div>
+						</div>
+						<!-- Arrow Navigator -->
+						<div data-u="arrowleft" class="jssora051" style="width:55px;height:55px;top:162px;left:25px;" data-autocenter="2" data-scale="0.75" data-scale-left="0.75">
+							<svg viewbox="0 0 16000 16000" style="position:absolute;top:0;left:0;width:100%;height:100%;">
+								<polyline class="a" points="11040,1920 4960,8000 11040,14080 "></polyline>
+							</svg>
+						</div>
+						<div data-u="arrowright" class="jssora051" style="width:55px;height:55px;top:162px;right:25px;" data-autocenter="2" data-scale="0.75" data-scale-right="0.75">
+							<svg viewbox="0 0 16000 16000" style="position:absolute;top:0;left:0;width:100%;height:100%;">
+								<polyline class="a" points="4960,1920 11040,8000 4960,14080 "></polyline>
+							</svg>
+						</div>
+					</div>
+					<script type="text/javascript">jssor_1_slider_init();</script>
+					<!-- Jssor Slider End -->
+				</section>
+			<!-- Photo End -->
+		</section>
+		<!-- Main End -->
+
+		<!-- Footer Start-->
+		<div id="wxImg" style="display:none;back-ground:#000000;position:absolute;margin-left: 27%;margin-top: 100px"><img src="images/wechat.jpeg" width="35%" height="40%"></div>
+		<div id="qqImg" style="display:none;back-ground:#000000;position:absolute;margin-left: 55.5%;margin-top: 100px"><img src="images/qq.jpeg" width="40%" height="40%"></div>
+		<footer id="footer" style="background-image: url(images/contact_wallpaper_new.png);width: 100%;height: 100%">
+			<h3 style="text-align: center;font-family: 'Carter One', cursive;">Feel Free to Contact with Me!</h3>
+			<h3>(੭ु｡╹▿╹｡)੭ु⁾⁾</h3>
+			<br>
+			<ul class="icons" style="text-align: center">
+				<li><a href="mailto:zhenchaoxu1997@gmail.com" class="icon fa-envelope"><span class="label">E-mail</span></a></li>
+				<li><a href="https://github.com/crayxu" target="_blank" class="icon fa-github"><span class="label">Github</span></a></li>
+				<li><a href="https://www.linkedin.com/in/zhenchaoxu" target="_blank" class="icon fa-linkedin"><span class="label">LinkedIn</span></a></li>
+				<li><a href="https://www.facebook.com/crayxu" target="_blank" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
+				<li><a href="https://www.instagram.com/cray_x_x" target="_blank" class="icon fa-instagram"><span class="label">Instagram</span></a></li>
+				<li><a href="https://soundcloud.com/zhenchao-xu" target="_blank" class="icon fa-soundcloud"><span class="label">Soundcloud</span></a></li>
+			</ul>
+			<ul class="icons" style="text-align: center">
+				<li><a href="javascript:void(0)" onMouseOut="hideImg()" onmouseover="showImg()" class="icon fa-wechat"></a></li>
+				<li><a href="https://space.bilibili.com/12697069" target="_blank"><span class="label"><img src="images/icons/bilibili.png" width="60px" height="60px" style="margin-left: -2px"></span></a></li>
+				<li style="margin-right: 20px"><a href="javascript:void(0)" onMouseOut="hideImge()" onmouseover="showImge()" class="icon fa-qq"></a></li>
+			</ul>
+		</footer>
+		<hr>
+		<ul class="copyright" style="list-style-type: none; text-align: center">
+			<li style="font-family: 'Carter One', cursive;">&copy; Cray Xu 2017-2018. All rights reserved.</li>
+		</ul>
+		<!-- Footer End-->
+	</div>
+
+	<!-- Scripts -->
+	<script src="assets/js/jquery.min.js"></script>
+	<script src="assets/js/jquery.dropotron.min.js"></script>
+	<script src="assets/js/jquery.scrollgress.min.js"></script>
+	<script src="assets/js/skel.min.js"></script>
+	<script src="assets/js/util.js"></script>
+	<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
+	<script src="assets/js/main.js"></script>
+
+	</body>
+</html>

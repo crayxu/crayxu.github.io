@@ -1,0 +1,212 @@
+<!DOCTYPE HTML>
+<html>
+	<!-- Head Start -->
+	<head>
+		<title>Personal Website</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
+		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
+		<!-- top icon -->
+		<link rel="icon" href="images/icons/icon.png" type="image/x-icon" />
+		<!-- stylesheet -->
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<!-- google font -->
+		<link href="https://fonts.googleapis.com/css?family=Carter+One|Lato|Ubuntu" rel="stylesheet">
+		<!-- animate -->
+		<link rel="stylesheet" href="assets/css/animate.css" />
+		<!-- smooth scroll plugin -->
+		<script src="assets/js/jquery.min.js"></script>
+		<script>
+			$(document).ready(function(){
+				// Add smooth scrolling to all links
+				$("a").on('click', function(event) {
+
+					// Make sure this.hash has a value before overriding default behavior
+					if (this.hash !== "") {
+						// Prevent default anchor click behavior
+						event.preventDefault();
+
+						// Store hash
+						var hash = this.hash;
+
+						// Using jQuery's animate() method to add smooth page scroll
+						// The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+						$('html, body').animate({
+							scrollTop: $(hash).offset().top
+						}, 800, function(){
+
+							// Add hash (#) to URL when done scrolling (default click behavior)
+							window.location.hash = hash;
+						});
+					} // End if
+				});
+			});
+		</script>
+		<!-- QR Code plugin -->
+		<script type="text/javascript">
+			function showImg(){
+				document.getElementById("wxImg").style.display='block';
+			}
+			function hideImg(){
+				document.getElementById("wxImg").style.display='none';
+			}
+			function showImge(){
+				document.getElementById("qqImg").style.display='block';
+			}
+			function hideImge(){
+				document.getElementById("qqImg").style.display='none';
+			}
+		</script>
+		<style>
+			b {
+				font-family: 'Carter One', cursive;
+			}
+		</style>
+	</head>
+	<!-- Head End -->
+
+	<body>
+		<div id="page-wrapper">
+
+			<!-- Header Start -->
+			<header id="header" class="alt" style="background: black">
+				<h1 style="font-family: 'Carter One', cursive;"><a href="index.html">Cray Xu</a></h1>
+				<nav id="nav">
+					<ul>
+						<li><a href="index.html">Home</a></li>
+						<li>
+							<a href="#" class="icon fa-angle-down">Projects</a>
+							<ul>
+                                <li><a href="website.html">Personal Website</a></li>
+								<li><a href="leetcode.html">LeetCode Practice</a></li>
+								<!--
+                                <li><a href="elements.html">Elements</a></li>
+                                -->
+								<!--
+                                <li>
+                                    <a href="#">Submenu</a>
+                                    <ul>
+                                        <li><a href="#">Option One</a></li>
+                                        <li><a href="#">Option Two</a></li>
+                                        <li><a href="#">Option Three</a></li>
+                                        <li><a href="#">Option Four</a></li>
+                                    </ul>
+                                </li>
+                                -->
+							</ul>
+						</li>
+						<li><a href="#footer" class="button">Contact</a></li>
+					</ul>
+				</nav>
+			</header>
+			<!-- Header End -->
+
+			<!-- Main -->
+				<section id="main" class="container">
+					<header>
+						<h2 style="font-family: 'Carter One', cursive;">Personal Website</h2>
+						<p>Built personal website with HTML, CSS and JavaScript to introduce myself</p>
+					</header>
+					<div class="box">
+						<span class="image featured"><img src="images/projects/web_large.jpeg" alt="" /></span>
+						<h2 style="text-align: center;font-family: 'Carter One', cursive;">Description</h2>
+						<h4>
+							This is my first personal website designed by myself.
+							The reason I built my own page is that I want to introduce myself like my life, my skills and my experience.
+							Also, I love recording the details of my life. Hope all of you will enjoy it.
+							<br>
+							<br>
+                            <i class="icon fa-link"></i> Source codes on my Github: <a href="https://github.com/crayxu/crayxu.github.io"><b>https://github.com/crayxu/crayxu.github.io</b></a>
+						</h4>
+						<hr>
+						<h2 style="text-align: center;font-family: 'Carter One', cursive;">Credits</h2>
+						<h3 style="font-family: 'Carter One', cursive;">Designs</h3>
+						<ul style="margin-left: 10%">
+							<li>html5up.net: <a href="https://html5up.net/" style="color: gray">https://html5up.net/</a></li>
+						</ul>
+						<h3 style="font-family: 'Carter One', cursive;">Images</h3>
+						<ul style="margin-left: 10%">
+							<li>Banner Background: <a href="https://www.youtube.com/watch?v=JHkYtPX5Owo" style="color: gray">https://www.youtube.com/watch?v=JHkYtPX5Owo</a></li>
+							<li>Intro Background: <a href="https://www.redbubble.com/people/nasa8x/works/19171763-eat-sleep-code-repeat-t-shirt-and-hoodie?p=laptop-skin" style="color: gray">https://www.redbubble.com/people/nasa8x/works/19171763-eat-sleep-code-repeat-t-shirt-and-hoodie?p=laptop-skin</a></li>
+							<li>UWaterloo: <a href="https://uwaterloo.ca" style="color: gray">https://uwaterloo.ca</a></li>
+							<li>Goose: <a href="https://www.narcity.com/ca/on/toronto/lifestyle/20-things-youll-only-see-at-the-university-of-waterloo" style="color: gray">https://www.narcity.com/ca/on/toronto/lifestyle/20-things-youll-only-see-at-the-university-of-waterloo</a></li>
+							<li>SheLeads: SheLeads All rights reserved</li>
+							<li>Wantboard: Wantboard All rights reserved</li>
+							<li>Equi-App: Equi-App All rights reserved</li>
+							<li>Bank of China: Bank of China All rights reserved</li>
+							<li>LeetCode: <a href="https://leetcode.com" style="color: gray">https://leetcode.com</a></li>
+							<li>Base Rep: <a href="https://uwaterloo.ca/bridge-to-academic-success-in-english/events/base-rep-team-meeting-2" style="color: gray">https://uwaterloo.ca/bridge-to-academic-success-in-english/events/base-rep-team-meeting-2</a></li>
+							<li>Umaru: <a href="https://zhidao.baidu.com/question/1948683778298912788.html" style="color: gray">https://zhidao.baidu.com/question/1948683778298912788.html</a></li>
+							<li>Umaru2: <a href="https://thekarmaking.deviantart.com/art/Umaru-render-Himouto-Umaru-chan-R-715801022" style="color: gray">https://thekarmaking.deviantart.com/art/Umaru-render-Himouto-Umaru-chan-R-715801022</a></li>
+                        	<li>Miku & Yuezheng Ling: <a href="http://www.benshouji.com/dongtai/5609136846" style="color:gray">http://www.benshouji.com/dongtai/5609136846/</a></li>
+							<li>Miku: <a href="http://huaban.com/pins/1353954553" style="color:gray">http://huaban.com/pins/1353954553</a></li>
+							<li>Kirisame Marisa: <a href="http://www.twoeggz.com/picture/7083561.html" style="color:gray">http://www.twoeggz.com/picture/7083561.html</a></li>
+							<li>Asuna: <a href="https://matome.naver.jp/odai/2134327024388301701/2135184856762539703" style="color: gray">https://matome.naver.jp/odai/2134327024388301701/2135184856762539703</a></li>
+							<li>Your Name Wallpaper: <a href="https://wallhere.com/ko/wallpaper/1156932" style="color:gray">https://wallhere.com/ko/wallpaper/1156932</a></li>
+							<li>Loader Gif: <a href="https://dribbble.com/shots/3197970-Loading-cat" style="color: gray">https://dribbble.com/shots/3197970-Loading-cat</a></li>
+							<li>Kasugano Sora: <a href="https://twitter.com/sasanoha271/status/827894488915795976" style="color: gray">https://twitter.com/sasanoha271/status/827894488915795976</a></li>
+							<li>Mikoto Misaka: <a href="https://zhidao.baidu.com/question/748687843978698732.html" style="color: gray;">https://zhidao.baidu.com/question/748687843978698732.html</a></li>
+						</ul>
+						<h3 style="font-family: 'Carter One', cursive;">Icons</h3>
+						<ul style="margin-left: 10%">
+							<li>Font Awesome: <a href="https://fontawesome.com" style="color: gray">https://fontawesome.com</a></li>
+							<li>Bilibili icon: <a href="https://www.bilibili.com/" style="color: gray">https://www.bilibili.com</a></li>
+							<li>FL Studio icon: <a href="https://www.pinterest.ca/pin/416371928042618434" style="color: gray">https://www.pinterest.ca/pin/416371928042618434/</a></li>
+							<li>Pen Spinning icon: <a href="https://zhuanlan.zhihu.com/p/33773307" style="color: gray">https://zhuanlan.zhihu.com/p/33773307</a></li>
+							<li>Cube icon: <a href="http://www.supercoloring.com/coloring-pages/rubiks-cube-0" style="color: gray">http://www.supercoloring.com/coloring-pages/rubiks-cube-0</a></li>
+							<li>Badminton icon: <a href="https://icons8.com/icon/24308/badminton" style="color: gray">https://icons8.com/icon/24308/badminton</a></li>
+							<li>Table Tennis icon: <a href="https://icons8.com/icon/199/ping-pong" style="color: gray">https://icons8.com/icon/199/ping-pong</a></li>
+							<li>Skateboard icon: <a href="https://www.flaticon.es/icono-gratis/patineta_96467" style="color: gray">https://www.flaticon.es/icono-gratis/patineta_96467</a></li>
+						</ul>
+						<h3 style="font-family: 'Carter One', cursive;">Fonts</h3>
+						<ul style="margin-left: 10%">
+							<li>Google Fonts: <a href="https://fonts.google.com" style="color: gray">https://fonts.google.com</a></li>
+						</ul>
+						<h3 style="font-family: 'Carter One', cursive;">Others</h3>
+						<ul style="margin-left: 10%">
+							<li>jQuery: <a href="http://jquery.com" style="color: gray">http://jquery.com</a></li>
+							<li>Bilibili HTML5 Player: <a href="https://www.bilibili.com/" style="color: gray">https://www.bilibili.com</a></li>
+							<li>Emoji: <a href="http://japaneseemoticons.me" style="color: gray">http://japaneseemoticons.me</a></li>
+							<li>Jssor Slider Maker: <a href="https://www.jssor.com" style="color: gray">https://www.jssor.com</a></li>
+						</ul>
+					</div>
+				</section>
+
+			<!-- Footer Start-->
+			<div id="wxImg" style="display:none;back-ground:#000000;position:absolute;margin-left: 350px;"><img src="images/wechat.jpeg" width="35%" height="40%"></div>
+			<div id="qqImg" style="display:none;back-ground:#000000;position:absolute;margin-left: 800px;"><img src="images/qq.jpeg" width="38%" height="40%"></div>
+			<footer id="footer">
+				<ul class="icons">
+					<li><a href="mailto:zhenchaoxu1997@gmail.com" class="icon fa-envelope"><span class="label">E-mail</span></a></li>
+					<li><a href="https://github.com/crayxu" target="_blank" class="icon fa-github"><span class="label">Github</span></a></li>
+					<li><a href="https://www.linkedin.com/in/zhenchaoxu" target="_blank" class="icon fa-linkedin"><span class="label">LinkedIn</span></a></li>
+					<li><a href="https://www.facebook.com/crayxu" target="_blank" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
+					<li><a href="https://www.instagram.com/cray_x_x" target="_blank" class="icon fa-instagram"><span class="label">Instagram</span></a></li>
+					<li><a href="https://soundcloud.com/zhenchao-xu" target="_blank" class="icon fa-soundcloud"><span class="label">Soundcloud</span></a></li>
+				</ul>
+				<ul class="icons">
+					<li><a href="javascript:void(0)" onMouseOut="hideImg()" onmouseover="showImg()" class="icon fa-wechat"></a></li>
+					<li><a href="https://space.bilibili.com/12697069" target="_blank"><span class="label"><img src="images/icons/bilibili.png" width="60px" height="60px" style="margin-left: -2px"></span></a></li>
+					<li style="margin-right: 20px"><a href="javascript:void(0)" onMouseOut="hideImge()" onmouseover="showImge()" class="icon fa-qq"></a></li>
+
+				</ul>
+
+				<ul class="copyright">
+					<li style="font-family: 'Carter One', cursive;">&copy; Cray Xu. All rights reserved.</li>
+				</ul>
+			</footer>
+			<!-- Footer End-->
+		</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.dropotron.min.js"></script>
+			<script src="assets/js/jquery.scrollgress.min.js"></script>
+			<script src="assets/js/skel.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
