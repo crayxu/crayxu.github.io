@@ -1,7 +1,8 @@
 My Personal Website!
 ---
 # References
-## Designs
+Designs
+---
 * html5up.net: [https://html5up.net/](https://html5up.net/)
 ## Images
 * Banner Background: [https://www.youtube.com/watch?v=JHkYtPX5Owo](https://www.youtube.com/watch?v=JHkYtPX5Owo)
