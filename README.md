@@ -1,16 +1,23 @@
 # Welcome to My Personal Website! -> http://crayxu.com
 
-<center># References</center>
+# References
 ## Designs
   html5up.net: [https://html5up.net/](https://html5up.net/)
 ## Images
   Banner Background: [https://www.youtube.com/watch?v=JHkYtPX5Owo](https://www.youtube.com/watch?v=JHkYtPX5Owo)
+  
   Intro Background: [https://www.redbubble.com/people/nasa8x/works/19171763-eat-sleep-code-repeat-t-shirt-and-hoodie?p=laptop-skin](https://www.redbubble.com/people/nasa8x/works/19171763-eat-sleep-code-repeat-t-shirt-and-hoodie?p=laptop-skin)
+  
   UWaterloo: [https://uwaterloo.ca](https://uwaterloo.ca)
+  
   Goose: [https://www.narcity.com/ca/on/toronto/lifestyle/20-things-youll-only-see-at-the-university-of-waterloo](https://www.narcity.com/ca/on/toronto/lifestyle/20-things-youll-only-see-at-the-university-of-waterloo)
+  
   SheLeads: SheLeads All rights reserved
+  
   Wantboard: Wantboard All rights reserved
+  
   Equi-App: Equi-App All rights reserved
+  
   Bank of China: Bank of China All rights reserved
   LeetCode: [https://leetcode.com](https://leetcode.com)
   Base Rep: [https://uwaterloo.ca/bridge-to-academic-success-in-english/events/base-rep-team-meeting-2](https://uwaterloo.ca/bridge-to-academic-success-in-english/events/base-rep-team-meeting-2)
