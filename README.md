@@ -1,4 +1,5 @@
-# Welcome to My Personal Website! -> http://crayxu.com
+# My Personal Website!
+## [http://crayxu.com](http://crayxu.com)
 
 ---
 # References
