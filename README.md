@@ -1,6 +1,4 @@
-# My Personal Website!
-[http://crayxu.com](http://crayxu.com)
-
+My Personal Website!
 ---
 # References
 ## Designs
