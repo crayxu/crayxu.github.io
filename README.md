@@ -54,5 +54,5 @@
   
   Jssor Slider Maker: [https://www.jssor.com](https://www.jssor.com)
   
-
+---
 :pencil:© Cray Xu. All Rights Reserved
