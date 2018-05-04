@@ -2,13 +2,13 @@ My Personal Website!
 ---
 # References
 ## Designs
-  html5up.net: [https://html5up.net/](https://html5up.net/)
+    html5up.net: [https://html5up.net/](https://html5up.net/)
 ## Images
-  Banner Background: [https://www.youtube.com/watch?v=JHkYtPX5Owo](https://www.youtube.com/watch?v=JHkYtPX5Owo)
+    Banner Background: [https://www.youtube.com/watch?v=JHkYtPX5Owo](https://www.youtube.com/watch?v=JHkYtPX5Owo)
   
-  Intro Background: [https://www.redbubble.com/people/nasa8x/works/19171763-eat-sleep-code-repeat-t-shirt-and-hoodie?p=laptop-skin](https://www.redbubble.com/people/nasa8x/works/19171763-eat-sleep-code-repeat-t-shirt-and-hoodie?p=laptop-skin)
+    Intro Background: [https://www.redbubble.com/people/nasa8x/works/19171763-eat-sleep-code-repeat-t-shirt-and-hoodie?p=laptop-skin](https://www.redbubble.com/people/nasa8x/works/19171763-eat-sleep-code-repeat-t-shirt-and-hoodie?p=laptop-skin)
   
-  UWaterloo: [https://uwaterloo.ca](https://uwaterloo.ca)
+    UWaterloo: [https://uwaterloo.ca](https://uwaterloo.ca)
   
   Goose: [https://www.narcity.com/ca/on/toronto/lifestyle/20-things-youll-only-see-at-the-university-of-waterloo](https://www.narcity.com/ca/on/toronto/lifestyle/20-things-youll-only-see-at-the-university-of-waterloo)
   
