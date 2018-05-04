@@ -3,10 +3,10 @@
 This is my first personal website designed by myself. The reason I built my own page is that I want to introduce myself like my life, my skills and my experience. Also, I love recording the details of my life. Hope all of you will enjoy it. 
 
 ---
-# References
-## Designs
+## References
+### Designs
 * html5up.net: [https://html5up.net/](https://html5up.net/)
-## Images
+### Images
 * Banner Background: [https://www.youtube.com/watch?v=JHkYtPX5Owo](https://www.youtube.com/watch?v=JHkYtPX5Owo)
 * Intro Background: [https://www.redbubble.com/people/nasa8x/works/19171763-eat-sleep-code-repeat-t-shirt-and-hoodie?p=laptop-skin](https://www.redbubble.com/people/nasa8x/works/19171763-eat-sleep-code-repeat-t-shirt-and-hoodie?p=laptop-skin)
 * UWaterloo: [https://uwaterloo.ca](https://uwaterloo.ca)
@@ -19,7 +19,7 @@ This is my first personal website designed by myself. The reason I built my own 
 * Base Rep: [https://uwaterloo.ca/bridge-to-academic-success-in-english/events/base-rep-team-meeting-2](https://uwaterloo.ca/bridge-to-academic-success-in-english/events/base-rep-team-meeting-2)
 * Umaru: [https://zhidao.baidu.com/question/1948683778298912788.html](https://zhidao.baidu.com/question/1948683778298912788.html)
 * Umaru2: [https://thekarmaking.deviantart.com/art/Umaru-render-Himouto-Umaru-chan-R-715801022](https://thekarmaking.deviantart.com/art/Umaru-render-Himouto-Umaru-chan-R-715801022)
-## Icons
+### Icons
 * Font Awesome: [https://fontawesome.com](https://fontawesome.com)
 * Bilibili icon: [https://www.bilibili.com](https://www.bilibili.com)
 * FL Studio icon: [https://www.pinterest.ca/pin/416371928042618434/](https://www.pinterest.ca/pin/416371928042618434/)
@@ -28,9 +28,9 @@ This is my first personal website designed by myself. The reason I built my own 
 * Badminton icon: [https://icons8.com/icon/24308/badminton](http://www.supercoloring.com/coloring-pages/rubiks-cube-0)
 * Table Tennis icon: [https://icons8.com/icon/199/ping-pong](https://icons8.com/icon/199/ping-pong)
 * Skateboard icon: [https://www.flaticon.es/icono-gratis/patineta_96467](https://www.flaticon.es/icono-gratis/patineta_96467)
-## Fonts
+### Fonts
 * Google Fonts: [https://fonts.google.com](https://fonts.google.com)
-## Others
+### Others
 * jQuery: [http://jquery.com](http://jquery.com)
 * YouTube Embeded Player: [https://www.bilibili.com](https://www.bilibili.com)
 * Emoticon: [http://japaneseemoticons.me](http://japaneseemoticons.me)
