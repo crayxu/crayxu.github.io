@@ -1,6 +1,6 @@
 # Welcome to My Personal Website! -> http://crayxu.com
 
-# References
+<center># References</center>
 ## Designs
   html5up.net: [https://html5up.net/](https://html5up.net/)
 ## Images
