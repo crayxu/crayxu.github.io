@@ -1,5 +1,5 @@
 # My Personal Website!
-## [http://crayxu.com](http://crayxu.com)
+[http://crayxu.com](http://crayxu.com)
 
 ---
 # References
