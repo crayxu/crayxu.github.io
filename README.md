@@ -14,12 +14,6 @@ HTML, CSS, JavaScript
 * Intro Background: [https://www.redbubble.com/people/nasa8x/works/19171763-eat-sleep-code-repeat-t-shirt-and-hoodie?p=laptop-skin](https://www.redbubble.com/people/nasa8x/works/19171763-eat-sleep-code-repeat-t-shirt-and-hoodie?p=laptop-skin)
 * UWaterloo: [https://uwaterloo.ca](https://uwaterloo.ca)
 * Goose: [https://www.narcity.com/ca/on/toronto/lifestyle/20-things-youll-only-see-at-the-university-of-waterloo](https://www.narcity.com/ca/on/toronto/lifestyle/20-things-youll-only-see-at-the-university-of-waterloo)
-* SheLeads: SheLeads All rights reserved
-* Wantboard: Wantboard All rights reserved
-* Equi-App: Equi-App All rights reserved
-* Bank of China: Bank of China All rights reserved
-* LeetCode: [https://leetcode.com](https://leetcode.com)
-* Base Rep: [https://uwaterloo.ca/bridge-to-academic-success-in-english/events/base-rep-team-meeting-2](https://uwaterloo.ca/bridge-to-academic-success-in-english/events/base-rep-team-meeting-2)
 * Umaru: [https://zhidao.baidu.com/question/1948683778298912788.html](https://zhidao.baidu.com/question/1948683778298912788.html)
 * Umaru2: [https://thekarmaking.deviantart.com/art/Umaru-render-Himouto-Umaru-chan-R-715801022](https://thekarmaking.deviantart.com/art/Umaru-render-Himouto-Umaru-chan-R-715801022)
 ### Icons
