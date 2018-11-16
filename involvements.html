@@ -20,7 +20,6 @@
 </head>
 
 <body>
-
     <div class="container">
         <div class="row">
             <!-- left column -->
@@ -29,54 +28,11 @@
             <!-- mid column -->
             <div class="col-10">
                 <!-- First Top -->
-                <div>
+                <div class="container-top">
                     <div class="row justify-content-center">
                         <a href="./index.html" id="name">
                             <h3>Cray Xu</h3>
                         </a>
-                    </div>
-                </div>
-
-                <!-- Second Top -->
-                <div class="container">
-                    <div class="row justify-content-center">
-                        <ul class="nav justify-content-center">
-                            <li class="nav-item">
-                                <a href="./Resume_Cray.pdf" target="_blank"><img src="./imgs/cv-icon.png" width="40"
-                                        height="40" style="margin-right: 20px"></a>
-                            </li>
-                            <li class="nav-item">
-                                <a href="https://github.com/crayxu" target="_blank"><i class="fab fa-github" style="font-size: 40px; color: black; margin-left: 20px"></i></a>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-
-                <!-- Third Top-->
-                <div class="container">
-                    <div class="row justify-content-center">
-                        <ul class="nav justify-content-center">
-                            <li class="nav-item">
-                                <a class="nav-link" href="http://crayxu.com/blog" target="_blank"><i class="fab fa-blogger"
-                                        style="font-size: 30px; color: black"></i></a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="https://www.linkedin.com/in/zhenchaoxu" target="_blank"><i
-                                        class="fab fa-linkedin-in" style="font-size: 30px; color: black"></i></a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="https://www.facebook.com/crayxu" target="_blank"><i class="fab fa-facebook"
-                                        style="font-size: 30px; color: black"></i></a>
-                            </li>
-                            <li class="nav-item">
-                                <a href="https://space.bilibili.com/12697069" target="_blank"><img src="./imgs/bilibili.png"
-                                        width="45" height="45" style="margin-left: 10px; margin-right: 5px"></a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="https://soundcloud.com/zhenchao-xu" target="_blank"><i class="fab fa-soundcloud"
-                                        style="font-size: 30px; color: black"></i></a>
-                            </li>
-                        </ul>
                     </div>
                 </div>
 
@@ -99,7 +55,7 @@
                             <a class="nav-link text-dark" href="./projects.html">Projects</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-dark" href="./involvements.html">Involvements</a>
+                            <a class="nav-link text-white btn-dark active" href="./involvements.html">Involvements</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link text-dark" href="./interests.html">Interests</a>
@@ -110,44 +66,52 @@
                     </ul>
                 </div>
 
-                <div class="row justify-content-center">
-                    <h3>Welcome!</h3>
+                <!-- body -->
+                <div class="row card-deck">
+                    <div class="card">
+                        <img class="card-img-top" src="./imgs/involvements/base.jpg" alt="Base Rep Team">
+                        <div class="card-body text-center">
+                            <h5 class="card-title">Base Rep Team Volunteer</h5>
+                            <p>Sep 2016 – Nov 2016 | Waterloo, ON</p>
+                            <ul class="list-group">
+                                <li class="list-group-item">Designed and organized activities for the University of
+                                    Waterloo and Renison College</li>
+                                <li class="list-group-item">Shared academic and interpersonal skills with peersn</li>
+                                <li class="list-group-item">Provided ideas and opinions about time management skills</li>
+                                <li class="list-group-item">Participated in different leadership programs</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img class="card-img-top" src="./imgs/involvements/google_games_waterloo_2018.jpeg" alt="Card image cap">
+                        <div class="card-body text-center">
+                            <h5 class="card-title">Google Games Waterloo 2018</h5>
+                            <p>April 28th, 2018 | Waterloo, ON</p>
+                            <ul class="list-group">
+                                <li class="list-group-item">Participated in this competition and solved many coding challenges and intelligent questions</li>
+                                <li class="list-group-item">Achieved 13th place among all the 24 teams. (*´∀`*)</li>
+                                <li class="list-group-item">Gained some teamwork skills and the experience of solving real life problems by programming</li>
+                            </ul>
+                        </div>
+                    </div>
                 </div>
-                <div class="row justify-content-center">
-                    <h3>♪♬(ノ・∀・)ノ♬♪</h3>
-                </div>
-            </div>
 
-            <!-- right column -->
-            <div class="col">
-                <!-- live2d -->
-                <div class="d-flex justify-content-end fixed-bottom" style="width:50">
-                    <canvas id="live2d" width="200" height="260" class="live2d"></canvas>
-                </div>
             </div>
+            <!-- right column -->
+            <div class="col"></div>
         </div>
     </div>
 
 
 
     <!-- Footer -->
-    <footer class="page-footer font-small blue fixed-bottom">
+    <hr>
+    <footer class="page-footer font-small blue sticky-bottom">
         <!-- Copyright -->
         <div class="footer-copyright text-center py-3" style="color: grey">
             © <b>Cray Xu 2017-2018. All rights reserved.</b>
         </div>
     </footer>
-
-    <!-- My JS-->
-    <script src="./script.js"></script>
-    <!-- live2d js file -->
-    <script type="text/javascript">
-        var home_Path = "http://crayxu.com";
-    </script>
-    <script type="text/javascript" src="/live2d/js/live2d.js"></script>
-    <script type="text/javascript">
-        loadlive2d("live2d", "./live2d/model/xiaomai/xiaomai.json");
-    </script>
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->

@@ -29,54 +29,11 @@
             <!-- mid column -->
             <div class="col-10">
                 <!-- First Top -->
-                <div>
+                <div class="container-top">
                     <div class="row justify-content-center">
                         <a href="./index.html" id="name">
                             <h3>Cray Xu</h3>
                         </a>
-                    </div>
-                </div>
-
-                <!-- Second Top -->
-                <div class="container">
-                    <div class="row justify-content-center">
-                        <ul class="nav justify-content-center">
-                            <li class="nav-item">
-                                <a href="./Resume_Cray.pdf" target="_blank"><img src="./imgs/cv-icon.png" width="40"
-                                        height="40" style="margin-right: 20px"></a>
-                            </li>
-                            <li class="nav-item">
-                                <a href="https://github.com/crayxu" target="_blank"><i class="fab fa-github" style="font-size: 40px; color: black; margin-left: 20px"></i></a>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-
-                <!-- Third Top-->
-                <div class="container">
-                    <div class="row justify-content-center">
-                        <ul class="nav justify-content-center">
-                            <li class="nav-item">
-                                <a class="nav-link" href="http://crayxu.com/blog" target="_blank"><i class="fab fa-blogger"
-                                        style="font-size: 30px; color: black"></i></a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="https://www.linkedin.com/in/zhenchaoxu" target="_blank"><i
-                                        class="fab fa-linkedin-in" style="font-size: 30px; color: black"></i></a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="https://www.facebook.com/crayxu" target="_blank"><i class="fab fa-facebook"
-                                        style="font-size: 30px; color: black"></i></a>
-                            </li>
-                            <li class="nav-item">
-                                <a href="https://space.bilibili.com/12697069" target="_blank"><img src="./imgs/bilibili.png"
-                                        width="45" height="45" style="margin-left: 10px; margin-right: 5px"></a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="https://soundcloud.com/zhenchao-xu" target="_blank"><i class="fab fa-soundcloud"
-                                        style="font-size: 30px; color: black"></i></a>
-                            </li>
-                        </ul>
                     </div>
                 </div>
 
@@ -87,7 +44,7 @@
                             <a class="nav-link text-dark" href="./about.html">About</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-dark" href="./education.html">Education</a>
+                            <a class="nav-link text-white btn-dark active" href="./education.html">Education</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link text-dark" href="./skills.html">Skills</a>
@@ -110,20 +67,34 @@
                     </ul>
                 </div>
 
-                <div class="row justify-content-center">
-                    <h3>Welcome!</h3>
-                </div>
-                <div class="row justify-content-center">
-                    <h3>♪♬(ノ・∀・)ノ♬♪</h3>
+                <!-- body -->
+                <div class="card-body text-center">
+                    <div class="container justify-content-center">
+                        <div class="row justify-content-center">
+                            <img src="./imgs/uw-logo.png" width="375" height="150" style="margin-top: -2.5%">
+                        </div>
+                        <div class="row justify-content-center">
+                            <ul class="col-md-10 timeline">
+                                <li>
+                                    <h3>University of Waterloo</h3>
+                                    <p>2017.9 - 2018.12</p>
+                                    <p>Bachelor's Degree</p>
+                                    <p>Computer Engineering, Honours, Co-operative</p>
+                                </li>
+                                <li>
+                                    <h3>University of Waterloo</h3>
+                                    <p>2019.1 - Now</p>
+                                    <p>Bachelor's Degree</p>
+                                    <p>Mathematics, Honours, Co-operative</p>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
                 </div>
             </div>
 
             <!-- right column -->
             <div class="col">
-                <!-- live2d -->
-                <div class="d-flex justify-content-end fixed-bottom" style="width:50">
-                    <canvas id="live2d" width="200" height="260" class="live2d"></canvas>
-                </div>
             </div>
         </div>
     </div>
@@ -131,23 +102,13 @@
 
 
     <!-- Footer -->
-    <footer class="page-footer font-small blue fixed-bottom">
+    <hr>
+    <footer class="page-footer font-small blue sticky-bottom">
         <!-- Copyright -->
         <div class="footer-copyright text-center py-3" style="color: grey">
             © <b>Cray Xu 2017-2018. All rights reserved.</b>
         </div>
     </footer>
-
-    <!-- My JS-->
-    <script src="./script.js"></script>
-    <!-- live2d js file -->
-    <script type="text/javascript">
-        var home_Path = "http://crayxu.com";
-    </script>
-    <script type="text/javascript" src="/live2d/js/live2d.js"></script>
-    <script type="text/javascript">
-        loadlive2d("live2d", "./live2d/model/xiaomai/xiaomai.json");
-    </script>
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->

@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css?family=Carter+One|Lato');
+
+/* http://ianlunn.github.io/Hover/ */
+
+html, body {
+    height: 100%;
+    font-family: 'Lato', sans-serif;
+}
+
+h3, h5, b{
+    font-family: 'Carter One', cursive;
+}
+
+mark {
+    background-color: #f2f2f2;
+    font-size: 1rem;
+}
+
+p {
+    font-size: 1rem;
+    font-family: 'Lato', sans-serif;
+}
+
+.container-top {
+    margin-top: -2%;
+}
+
+.row {
+    margin-top: 2.5%;
+}
+
+
+#live2d {
+    position: relative;
+}
+
+#live2d:hover {
+    cursor: pointer;
+}
+
+#name {
+    text-decoration: none;
+    color: black;
+}
+
+.timeline {
+    list-style: none;
+}
