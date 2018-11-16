@@ -6,4 +6,4 @@ This is my first personal website designed by myself. The reason I built my own 
 HTML, CSS, JavaScript, Bootstrap, jQuery
 
 ---
-© Cray Xu. 2017-2018. All Rights Reserved
+© Cray Xu 2017-2018. All Rights Reserved.
