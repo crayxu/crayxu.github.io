@@ -46,3 +46,7 @@ p {
 .timeline {
     list-style: none;
 }
+
+#footer-copyright {
+    color: grey;
+}
