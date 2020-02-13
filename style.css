@@ -50,3 +50,37 @@ p {
 #footer-copyright {
     color: grey;
 }
+
+#resume-icon {
+    width: 40px;
+    height: 40px;
+    margin-right: 20px;
+}
+
+.fa-github {
+    font-size: 40px; 
+    color: black; 
+    margin-left: 20px;
+}
+
+.fa-linkedin-in {
+    font-size: 30px;
+    color: black;
+}
+
+.fa-facebook {
+    font-size: 30px;
+    color: black;
+}
+
+#bilibili-icon {
+    width: 45px;
+    height: 45px;
+    margin-left: 10px;
+    margin-right: 5px;
+}
+
+.fa-soundcloud {
+    font-size: 30px;
+    color: black;
+}
