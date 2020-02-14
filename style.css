@@ -84,3 +84,8 @@ p {
     font-size: 30px;
     color: black;
 }
+
+#umaru-image {
+    width: 70%;
+    height: 70%;
+}
