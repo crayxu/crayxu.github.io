@@ -43,10 +43,6 @@ p {
     color: black;
 }
 
-.timeline {
-    list-style: none;
-}
-
 #footer-copyright {
     color: grey;
 }
@@ -89,3 +85,20 @@ p {
     width: 70%;
     height: 70%;
 }
+
+#uw-logo {
+    width: 375px;
+    height: 150px;
+}
+
+.skill-card {
+    margin-top: 2.5%;
+}
+
+/* mobile view modification */
+/* @media (max-width: 900px) {
+    #uw-logo {
+        width: 200px;
+        height: 100px;
+    }
+} */
