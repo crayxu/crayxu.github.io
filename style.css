@@ -96,9 +96,39 @@ p {
 }
 
 /* mobile view modification */
-/* @media (max-width: 900px) {
+@media (max-width: 900px) {
     #uw-logo {
-        width: 200px;
+        width: 230px;
         height: 100px;
+        margin-left: -9px;
     }
-} */
+    #process-fusion-img {
+        width: 120px;
+        height: 120px;
+        margin: 0% 0% 0% 0% !important;
+    }
+    #open-text-img {
+        margin: 5% 0% 5% 0% !important;
+    }
+    #home-depot-img {
+        margin: 5% 0% 5% 0% !important;
+    }
+    #lunaria-img {
+        margin: 0% 0% 0% 0% !important;
+    }
+    #wantboard-img {
+        margin: 0% 0% 0% 0% !important;
+    }
+    #bank-of-china-img {
+        margin: 0% 0% 0% 0% !important;
+    }
+    #ece-course {
+        white-space: normal;
+    }
+    #emls-course {
+        white-space: normal;
+    }
+    #pd-course {
+        white-space: normal;
+    }
+}
