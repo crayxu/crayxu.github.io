@@ -50,7 +50,7 @@ function addFooterCopyrightUpdateDate() {
             break;
     }
     footerCopyright.innerHTML = `Last Update: ` + ` ${m_str}` + ` ${currentdate.getDate()},` + ` ${currentdate.getFullYear()}`;
-    }
+}
 
-    addFooterCopyright();
-    addFooterCopyrightUpdateDate();
+addFooterCopyright();
+addFooterCopyrightUpdateDate();
