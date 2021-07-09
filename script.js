@@ -53,4 +53,6 @@ function addFooterCopyrightUpdateDate() {
 }
 
 addFooterCopyright();
-addFooterCopyrightUpdateDate();
+// addFooterCopyrightUpdateDate();
+let footerCopyright = document.getElementById('footer-copyright-update-date');
+footerCopyright.innerHTML = "Last Update: Jul 8, 2021";
