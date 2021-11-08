@@ -97,6 +97,14 @@ p {
 
 /* mobile view modification */
 @media (max-width: 900px) {
+    #veeva-img {
+        width: 130px;
+        height: 35px;
+        margin-left: -9px;
+        margin-top: 10px !important;
+        margin-bottom: 10px !important;
+    }
+
     #uw-logo {
         width: 230px;
         height: 100px;
