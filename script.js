@@ -54,5 +54,5 @@ function addFooterCopyrightUpdateDate() {
 
 addFooterCopyright();
 // addFooterCopyrightUpdateDate();
-let footerCopyright = document.getElementById('footer-copyright-update-date');
-footerCopyright.innerHTML = "Last Update: Sep 12, 2021";
+// let footerCopyright_update = document.getElementById('footer-copyright-update-date');
+// footerCopyright_update.innerHTML = "Last Update: Nov 8, 2021";
