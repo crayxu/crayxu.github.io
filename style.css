@@ -95,14 +95,18 @@ p {
     margin-top: 2.5%;
 }
 
+#veeva-img {
+    margin: 20% 0% 0% 0%;
+}
+
 /* mobile view modification */
 @media (max-width: 900px) {
     #veeva-img {
         width: 130px;
         height: 35px;
         margin-left: -9px;
-        margin-top: 10px !important;
-        margin-bottom: 10px !important;
+        margin-top: 10px;
+        margin-bottom: 10px;
     }
 
     #uw-logo {
